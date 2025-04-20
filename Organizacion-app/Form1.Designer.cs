@@ -39,6 +39,7 @@
             this.ejemplo_text = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.buscar_button = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -218,6 +219,23 @@
             this.buscar_button.UseVisualStyleBackColor = false;
             this.buscar_button.Click += new System.EventHandler(this.buscar_button_Click);
             // 
+            // label2
+            // 
+            this.label2.AllowDrop = true;
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label2.Font = new System.Drawing.Font("Minecraft", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label2.Location = new System.Drawing.Point(653, 418);
+            this.label2.Margin = new System.Windows.Forms.Padding(0);
+            this.label2.MaximumSize = new System.Drawing.Size(225, 400);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(119, 21);
+            this.label2.TabIndex = 20;
+            this.label2.Text = "By @Froy";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
             // Organizador
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -226,6 +244,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.buscar_button);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.ejemplo_text);
@@ -262,6 +281,7 @@
         private System.Windows.Forms.Label ejemplo_text;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button buscar_button;
+        private System.Windows.Forms.Label label2;
     }
 }
 

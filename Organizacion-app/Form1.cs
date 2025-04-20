@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
 
 namespace Organizacion_app
 {
@@ -231,19 +232,21 @@ namespace Organizacion_app
         }
 
         private void buscar_button_Click(object sender, EventArgs e) {
-            using (FolderBrowserDialog dialog = new FolderBrowserDialog())
-            {
-                textBox1.ForeColor = Color.Black;
-                dialog.Description = "Selecciona una carpeta";
-                dialog.ShowNewFolderButton = true;
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.CheckFileExists = false;
+            openFileDialog.FileName = "Selecciona una carpeta"; // Texto que se muestra
 
-                if (dialog.ShowDialog() == DialogResult.OK)
-                {
-                    textBox1.Text = dialog.SelectedPath;
-                    path = dialog.SelectedPath;
-                    direccion_marcador.Text = path;
-                }
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                string folderPath = Path.GetDirectoryName(openFileDialog.FileName);
+                textBox1.Text = folderPath;
+                path = folderPath;
+                direccion_marcador.Text = path;
             }
+        }
+
+        private void label2_Click(object sender, EventArgs e) {
+
         }
     }
 }
