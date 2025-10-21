@@ -8,7 +8,6 @@ Organizador de archivos por diferentes metodos:
 
 ¿Qué hace?
 Crea carpetas para contener todos los archivos dependiendo de el metodo de organizacion seleccionado.
-![image](https://github.com/user-attachments/assets/c4ec1392-e0ae-403a-9710-65b22d011adb)
 
-Contiene un explorador de archivos al presionar "Buscar" para facilitar encontrar la carpeta a organizar.
-![image](https://github.com/user-attachments/assets/6220df9b-db34-4c96-998c-c9f47ddd83a5)
+
+<img width="234" height="221" alt="image" src="https://github.com/user-attachments/assets/e9ae9123-4f3d-4185-92cc-9931061d4475" />
