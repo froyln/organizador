@@ -1,0 +1,10 @@
+C:\Users\froyl\Documents\Dev - Csharp\Organizador rework\Organizador rework\bin\Debug\Organizador rework.exe.config
+C:\Users\froyl\Documents\Dev - Csharp\Organizador rework\Organizador rework\bin\Debug\Organizador rework.exe
+C:\Users\froyl\Documents\Dev - Csharp\Organizador rework\Organizador rework\bin\Debug\Organizador rework.pdb
+C:\Users\froyl\Documents\Dev - Csharp\Organizador rework\Organizador rework\obj\Debug\Organizador rework.csproj.AssemblyReference.cache
+C:\Users\froyl\Documents\Dev - Csharp\Organizador rework\Organizador rework\obj\Debug\Organizador_rework.frmOrganizador.resources
+C:\Users\froyl\Documents\Dev - Csharp\Organizador rework\Organizador rework\obj\Debug\Organizador_rework.Properties.Resources.resources
+C:\Users\froyl\Documents\Dev - Csharp\Organizador rework\Organizador rework\obj\Debug\Organizador rework.csproj.GenerateResource.cache
+C:\Users\froyl\Documents\Dev - Csharp\Organizador rework\Organizador rework\obj\Debug\Organizador rework.csproj.CoreCompileInputs.cache
+C:\Users\froyl\Documents\Dev - Csharp\Organizador rework\Organizador rework\obj\Debug\Organizador rework.exe
+C:\Users\froyl\Documents\Dev - Csharp\Organizador rework\Organizador rework\obj\Debug\Organizador rework.pdb
